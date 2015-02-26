@@ -1,0 +1,27 @@
+<?php
+
+class Usuario
+{
+    private $idusuario;
+    private $nombre;
+    
+     function __construct($idusuario, $nombre) {
+       $this->idusuario = $idusuario;
+       $this->nombre = $nombre;
+     }
+    
+     function setIdUsuario($idusuario){
+       $this->idusuario = $idusuario;
+     } 
+     function getIdUsuario(){
+       return $this->idusuario;
+     } 
+     function setNombre($nombre){
+       $this->nombre = $nombre;
+     } 
+     function getNombre(){
+       return $this->nombre;
+     } 
+}
+
+?> 
